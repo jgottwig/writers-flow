@@ -1,6 +1,6 @@
 # Writers Workflow
 ## by J. B. Author
-This document simulates how you would compose a story using a Git-based writers workflow.
+This document simulates how you would compose a story using a Git-based writers workflow. View the raw to better understand the markdown.
 
 This example uses standard Markdown but could be modified to use other raw text formats, but the script assumes Markdown. A script then exports this Markdown into docx.
 
