@@ -14,7 +14,7 @@ cat reference/number.md > tmpOutput.md
 cat ../WritersWorkflow/WritersWorkflow.md >> tmpOutput.md
 
 sed -i -- "s/{{wc}}/$wc/g" tmpOutput.md
-sed -i -- "s/## By J. Matthew Gottwig//g" tmpOutput.md
+sed -i -- "s/## By J.B. Author//g" tmpOutput.md
 
 pandoc -s tmpOutput.md -o ../exports/Anon-WritersWorkflow.docx --data-dir=reference/
 
